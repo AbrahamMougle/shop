@@ -1,2 +1,5 @@
-# shop
-Created with CodeSandbox
+### 📝 Retirer un article du panier (Défi 2 sur 4) : Implémentation de la décrémentation et suppression automatique
+
+- **Problème résolu :** Ajout de la fonctionnalité manquante du bouton « – » pour diminuer le compteur de chaque produit. Le gestionnaire d'événement doit gérer deux cas : lorsque le compteur est supérieur à 1, il décrémente la quantité du produit ; lorsque le compteur est à 1, il filtre automatiquement le produit du panier pour éviter d'afficher un compteur à zéro. La gestion correcte des clés React assure un rendu stable du tableau mis à jour.
+- **Compétence acquise :** Maîtrise de la manipulation d'état avec des tableaux d'objets en React, utilisant `map()` pour les mises à jour conditionnelles et `filter()` pour la suppression d'éléments, tout en respectant l'immutabilité des données pour déclencher correctement les rendus. Compréhension de l'importance des clés uniques (`key={product.id}`) pour les performances et la stabilité du rendu des listes.
+- **Lien vers le code :** [Cliquez ici pour voir l'exercice](https://fr.react.dev/learn/updating-arrays-in-state)
